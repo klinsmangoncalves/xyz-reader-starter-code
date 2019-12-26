@@ -28,6 +28,9 @@
     <color name="colorAccent">#FF9800</color>
     <color name="colorPrimaryText">#212121</color>
 
-    #212121
+    <color name="colorCardTextBody">#6000</color>
+
+
+
 
 </resources>
