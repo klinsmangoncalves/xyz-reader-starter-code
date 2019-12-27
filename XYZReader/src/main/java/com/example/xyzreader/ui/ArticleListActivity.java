@@ -129,6 +129,7 @@ public class ArticleListActivity extends ActionBarActivity implements
 
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
         private Cursor mCursor;
+        private Bundle bundle;
 
         public Adapter(Cursor cursor) {
             mCursor = cursor;
