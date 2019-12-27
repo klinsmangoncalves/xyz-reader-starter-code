@@ -20,6 +20,7 @@
                 android:background="@color/photo_placeholder">
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
+                    android:transitionName="anime"
                     android:id="@+id/photo"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
