@@ -20,7 +20,8 @@
                 android:background="@color/photo_placeholder">
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
-                    android:transitionName="anime"
+                    android:transitionName="@string/transition_image_animation"
+                    android:contentDescription="@string/image_top_book"
                     android:id="@+id/photo"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
@@ -29,7 +30,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
+                    android:layout_height="@dimen/background_protection"
                     android:background="@drawable/photo_background_protection" />
 
             </FrameLayout>
@@ -40,8 +41,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:maxWidth="@dimen/detail_card_max_width"
-                android:background="#fff"
-                android:elevation="2dp"
+                android:background="@color/article_background_color"
+                android:elevation="@dimen/article_elevation"
                 android:layout_marginTop="@dimen/detail_card_top_margin">
 
                 <LinearLayout

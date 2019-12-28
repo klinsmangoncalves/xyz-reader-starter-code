@@ -30,6 +30,7 @@
 
     <color name="colorCardTextBody">#6000</color>
     <color name="article_title_color">#fff</color>
+    <color name="article_background_color">#fff</color>
     <color name="article_byline_color">#8fff</color>
     <color name="meta_bar_background">#333</color>
 

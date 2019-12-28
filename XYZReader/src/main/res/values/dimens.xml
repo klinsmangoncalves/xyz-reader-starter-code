@@ -8,5 +8,14 @@
     <dimen name="fab_size">56dp</dimen>
     <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="background_protection">112dp</dimen>
+    <dimen name="base_item_image_height">100dp</dimen>
+    <dimen name="item_list_margin">4dp</dimen>
+    <dimen name="item_list_padding_horizontal">16dp</dimen>
+    <dimen name="item_list_title_padding_bottom">4dp</dimen>
+    <dimen name="item_list_title_padding_top">16dp</dimen>
+    <dimen name="item_list_subtitle_padding_bottom">16dp</dimen>
+
+
 
 </resources>
